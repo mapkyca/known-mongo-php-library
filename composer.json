@@ -1,0 +1,16 @@
+{
+    "name": "mapkyca/known-mongo-php-library",
+    "description": "Known version of the mongo php libray, in its own repo since no versioned build in packageist seems to work",
+    "license": "Apache-2.0",
+    "keywords": ["mongo", "known"],
+    "require": {
+        "php": ">=5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "MongoDB\\": "src/"
+        },
+	"files": [ "src/functions.php" ]
+    }
+}
+
