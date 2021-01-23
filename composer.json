@@ -1,7 +1,7 @@
 {
     "name": "mapkyca/known-mongo-php-library",
     "description": "Known version of the mongo php libray, in its own repo since no versioned build in packageist seems to work",
-    "version": "1.0.3+known",
+    "version": "1.0.3",
     "license": "Apache-2.0",
     "keywords": ["mongo", "known"],
     "require": {
